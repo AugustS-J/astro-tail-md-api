@@ -11,40 +11,37 @@ const udvalgtenyheder = sorteredenyheder.slice(0, 3);
 	<article class="relative mb-16">
 		<Image src={danceMotherFuckerDance} alt="dance motherfucker dance" class=""/>
 		<div class="@container absolute top-0 left-1/4 w-1/2 ">
-			<h1 class="text-white text-[14cqw] mt-[22cqi]">Dance, motherfucker, dance!</h1>
+			<h1 class="font-['Roboto'] text-persianmosaic-900 font-bold italic text-[14cqw] mt-[22cqi]">Dance, motherfucker, dance!</h1>
 		</div>
-		
 	</article>
-
-	<div class="max-w-5xl mx-auto p-4">	
+	<div class="max-w-5xl mx-auto p-4">
 		<section class="mb-16">
-			<h2 class="mb-8 text-4xl">Nyheder</h2>
+			<h2 class="mb-8 text-4xl font-semibold text-persianmosaic-100">Nyheder</h2>
 			<!-- alt hvad der omhandler lists til nyheder -->
-			<ul>
+			<ul class="border-2 border-neutral-300">
 				{udvalgtenyheder.map(post => 
-				<li class="">
-					<div class="">
+				<li class="md:grid grid-cols-2 gap-10 p-10 sm:px-20">
+					<div class="grid place-content-center mb-8 md:mb-0">
 					<img src={post.frontmatter.coverimage} alt={post.frontmatter.coveralt} class="" />
 					</div>
-					<div class="">
-						<h3><a href={post.url} class="">{post.frontmatter.title}</a></h3>
-						<span class="">{post.frontmatter.dato}</span>
-						<p>{post.frontmatter.kortversion}</p>
-						<a href={post.url} class="">Læs mere...</a>
+					<div class="grid place-content-center p-5">
+						<h3 class="mb-2"><a href={post.url} class="text-persianmosaic-200 text-xl font-medium">{post.frontmatter.title}</a></h3>
+						<span class="text-xs text-neutral-500 font-light mb-2">{post.frontmatter.dato}</span>
+						<p class="text-sm mb-2">{post.frontmatter.kortversion}</p>
+						<a href={post.url} class="text-sm text-persianmosaic-300 hover:text-persianmosaic-100 underline underline-offset-1">Læs mere...</a>
 					</div>
 				</li>
 				)}
 			</ul>
 			<!-- slut på alt hvad der omhandler lists til nyheder -->
 		</section>
-
 		<section x-data="{ alledansehold: []}" x-init="alledansehold = await (await fetch('dansehold.json')).json(); alledansehold.reverse();" class="mb-16">
-			<h2 class="my-8 text-4xl">Dansehold Efterår 2024</h2>
+			<h2 class="my-8 text-4xl text-persianmosaic-100">Dansehold Efterår 2024</h2>
 			<!-- alt hvad der omhandler cards til dansehold -->
 			<section class="">
 				<template x-for="dansehold in alledansehold" :key="dansehold.id">	
 					<article class="">
-						<a href="#">
+						<a href="#" class="text-persianmosaic-300 hover:text-persianmosaic-100">
 							<header class="">
 								<img :src="dansehold.holdbillede" :alt="dansehold.hodlbilledealt" class="">
 								<div class="" x-show="">Nyt hold!</div>
