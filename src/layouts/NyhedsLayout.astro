@@ -6,16 +6,12 @@ const {frontmatter} = Astro.props;
 	<div class="max-w-5xl mx-auto px-4 text-neutral-800 grid place-items-center">	
 		<img src={frontmatter.coverimage} alt={frontmatter.coveralt} class="mb-14"/>
 		<section class="prose w-3/5">
-			<h1 class="">{frontmatter.title}</h1>
+			<h1 class="text-persianmosaic-100 font-bold">{frontmatter.title}</h1>
 			<slot />
 		</section>
 	</div>
 </MainLayout>
 <style>
-	h1 {
-		color: #196673;
-		font-weight: 700;
-	}
 	img {
 		width: 75%;
 	}

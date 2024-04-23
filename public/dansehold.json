@@ -58,7 +58,7 @@
         "underviserfoto": "mogensferdo.jpg",
         "underviserfotoalt": "Mogens Ferdo - underviser på Folkedans", 
         "underviserurl": "/undervisere/mogensferdo",
-        "underviserinfo": "Mogens Ferdo er af den gamle skole. Hans undervisning består af lige dele ros og revser, for som Mogens siger: Frygt er en motiverende faktor for at lære",
+        "underviserinfo": "Mogens Ferdo er af den gamle skole. Hans undervisning består af lige dele ros og revser, for som Mogens siger: Frygt er en motiverende faktor for at lære.",
         "niveau": "Fortsætter",
         "alder": "60+",
         "lokale": "Vestibulen",
@@ -136,5 +136,28 @@
         "nythold": true,
         "rabat": false,
         "rabatsats": "5%"
+    },
+    {
+        "id": 7, 
+        "holdnavn": "Salsa for begyndere",
+        "holdbillede": "frank-rolando-romero-sjP9xrF4JAA-unsplash.jpg",
+        "hodlbilledealt": "Salsa i vores dansesal Svedhytten",
+        "holdbeskrivelse": "Salsa for begyndere er for salsa-interesserede individer der ikke har prøvet kræfter med den stærke dans før, og for let-øvede der ønsker at få mere erfaring med dansen.",
+        "holdcatchline": "Stærk salsa undervisning for alle interesserede!", 
+        "tilmeldingslink": "/jitterbug",
+        "tidspunkt": "tirsdag 17-19",
+        "underviser": "Lix Hansom",
+        "underviserfoto": "lixhansom.jpg",
+        "underviserfotoalt": "Lix - vores passionerede instruktør på salsa holdet", 
+        "underviserurl": "/undervisere/hellvis",
+        "underviserinfo": "Lix Hansom er en af danmarks bedste freestyle battle dansere. Han har blandt andet vundet Bornholmsmesterskaberne i Freestyle 2012, inden han flyttede til Ringsted for at blive danseinstruktør og siden også har mestret den stærke salsa genre!",
+        "niveau": "Ingen erfaring påkrævet",
+        "alder": "18+",
+        "lokale": "Svedhytten",
+        "pladserpaaholdet": 25,
+        "antaldeltagere": 13,
+        "nythold": true,
+        "rabat": false,
+        "rabatsats": "10%"
     }
 ]

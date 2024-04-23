@@ -35,14 +35,12 @@ Hvis du er en af dem, der har mistet noget på Danseskolen, opfordrer vi dig til
        font-weight: 600;
        text-align: center;
     }
-
     #hvad-kan-du-forvente-at-finde   {
 		color: #367480;
         font-weight: 600;
         text-align: center;
 
 	}
-
     #kom-og-hent-dit-tabte-eje {
         color: #4e838e;
         font-weight: 500;
